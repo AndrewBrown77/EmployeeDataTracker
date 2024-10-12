@@ -1,4 +1,4 @@
-onst inquirer = require("inquirer");
+const inquirer = require("inquirer");
 const mysql = require("mysql2/promise");
 
 // Encryption for env file

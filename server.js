@@ -8,19 +8,19 @@ const connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: "",
-    database: "employeeTracker_db",
+    database: "employeedatatracker",
 });
 
 // connect to the database
 connection.connect((err) => {
-    if (err) throw err;
+    // if (err) throw err;
     console.log("Connected to the database!");
     // start the application
     start();
 });
 
 // Function to start the application of CFONT 
-cfonts.say('Thomas & Friends \nSQL Employee Tracker', {
+cfonts.say('employeedatatracker', {
 	font: 'block',              // define the font face
 	align: 'left',              // define text alignment
 	colors: ['blue'],         // define all colors

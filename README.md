@@ -29,5 +29,8 @@ Phase 1- Planning and Project Setup -Define Application Requirements -Set Up Dev
 
 Contributing:
  Andrew Brown: https://github.com/AndrewBrown77
+ Github
+ Youtube
+ Stackoverflow
 
 Photo Examples:
